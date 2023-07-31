@@ -5,6 +5,7 @@ export type UserOrderByInput = {
   firstName?: SortOrder;
   id?: SortOrder;
   lastName?: SortOrder;
+  mobileNo?: SortOrder;
   nickname?: SortOrder;
   password?: SortOrder;
   roles?: SortOrder;
