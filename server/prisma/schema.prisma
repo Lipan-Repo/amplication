@@ -12,6 +12,7 @@ model User {
   firstName String?
   id        String   @id @default(cuid())
   lastName  String?
+  mobileNo  String?
   nickname  String?
   password  String
   roles     Json

@@ -5,6 +5,7 @@ export type User = {
   firstName: string | null;
   id: string;
   lastName: string | null;
+  mobileNo: string | null;
   nickname: string | null;
   roles: JsonValue;
   updatedAt: Date;

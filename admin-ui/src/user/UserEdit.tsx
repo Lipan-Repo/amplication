@@ -15,6 +15,7 @@ export const UserEdit = (props: EditProps): React.ReactElement => {
       <SimpleForm>
         <TextInput label="First Name" source="firstName" />
         <TextInput label="Last Name" source="lastName" />
+        <TextInput label="mobileNo" source="mobileNo" />
         <TextInput label="Nickname" multiline source="nickname" />
         <PasswordInput label="Password" source="password" />
         <SelectArrayInput
